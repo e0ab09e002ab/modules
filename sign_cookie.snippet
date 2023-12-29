@@ -17,7 +17,7 @@
 #############################################
 
 # 去重后的hostname，将对以下域名进行MITM（MAN-IN-THE-MIDDLE：中间人攻击）
-hostname = yunbusiness.ccb.com
+hostname = yunbusiness.ccb.com, auth.aliyundrive.com
 
 # 建行生活 签到获取cookie
 ^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin) url script-request-body https://raw.githubusercontent.com/e0ab09e002ab/modules/main/qx/jhsh_checkIn.js
