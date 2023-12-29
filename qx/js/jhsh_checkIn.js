@@ -5,10 +5,6 @@
  * 仓库地址：https://github.com/e0ab09e002ab/modules
  * 更新时间：2023-10-31  修复多账号 Set-Cookie 参数的串号问题
  * 更新时间：2023-10-30  修复 Cokie 失效问题，增加骑行券类型参数，感谢 Sliverkiss、𝘠𝘶𝘩𝘦𝘯𝘨、苍井灰灰 大佬提供帮助。
-/*
-
-https://raw.githubusercontent.com/e0ab09e002ab/modules/main/rewrite/get_jhsh_cookie.sgmodule
-
 
 -------------- Quantumult X 配置 --------------
 
