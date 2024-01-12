@@ -3,26 +3,9 @@
 # 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！
 #############################################
 
-hostname = *.xiuxiu.meitu.com,api.xiuxiu.meitu.com,user.linglan.com,notability.com,restore-access.indream.app,api.hummingbird.businessreview.global,share.dianshihome.com, api.gaoqingdianshi.com
+hostname = www.youtube.com
 
-# ✅美图秀秀vip
-^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js
+# YouTube 无中文字幕机翻方案
+https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=zh\-Hans).)*$ url request-header \sHTTP/1\.1(\r\n) request-header &tlang=zh-Hans HTTP/1.1$1
 
-# ✅美图秀秀粉钻
-^https:\/\/api\.xiuxiu\.meitu\.com\/v1 url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js
-
-# ✅灵兰中医vip
-^https?:\/\/user\.linglan\.com\/api\/personCenter\/getMyUser url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/linglanzhongyi.js
-
-# ✅Notability +解锁订阅
-^https?:\/\/notability\.com\/(global|subscriptions) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js
-
-# ✅Nicegram-解锁高级功能
-https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json echo-response https://raw.githubusercontent.com/chxm1023/Rewrite/main/Nicegram.js
-
-# ✅经济学人·商论vip
-^https:\/\/api\.hummingbird\.businessreview\.global\/api\/subscriptions\/get_active url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jjxrsl.js
-
-# ✅电视家vip
-^http[s]?:\/\/(share\.dianshihome\.com\/api\/user\/base\/info|123\.56\.125\.184\/api\/.+\/user\/info|api\.gaoqingdianshi\.com\/api\/ad\/mobile\/config) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/dsj.js
 
