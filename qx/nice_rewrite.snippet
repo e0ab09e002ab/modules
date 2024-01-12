@@ -3,7 +3,7 @@
 # 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！
 #############################################
 
-hostname = *.xiuxiu.meitu.com,api.xiuxiu.meitu.com,user.linglan.com,notability.com,restore-access.indream.app,api.hummingbird.businessreview.global,share.dianshihome.com, api.gaoqingdianshi.com,*xmind.*
+hostname = *.xiuxiu.meitu.com,api.xiuxiu.meitu.com,user.linglan.com,notability.com,restore-access.indream.app,api.hummingbird.businessreview.global,share.dianshihome.com, api.gaoqingdianshi.com
 
 # ✅美图秀秀vip
 ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js
@@ -26,5 +26,3 @@ https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-res
 # ✅电视家vip
 ^http[s]?:\/\/(share\.dianshihome\.com\/api\/user\/base\/info|123\.56\.125\.184\/api\/.+\/user\/info|api\.gaoqingdianshi\.com\/api\/ad\/mobile\/config) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/dsj.js
 
-# ✅Xmind-思维导图vip
-^https?:\/\/(?:www\.)?xmind\..*\/.+\/(devices|token\/.+) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js
