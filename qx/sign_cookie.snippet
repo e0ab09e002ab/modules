@@ -20,7 +20,10 @@
 hostname = yunbusiness.ccb.com, auth.alipan.com, auth.aliyundrive.com
 
 # 建行生活 签到获取cookie
-^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin) url script-request-body https://raw.githubusercontent.com/e0ab09e002ab/modules/main/qx/jhsh_checkIn.js
+^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin) url script-request-body https://raw.githubusercontent.com/e0ab09e002ab/modules/main/qx/js/jhsh_checkIn.js
 
 # 阿里云盘签到cookie
 ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token url script-request-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
+
+# 喜马拉雅
+^https?:\/\/.*\/mobile\-user\/(v1\/)?homePage\/.* url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js

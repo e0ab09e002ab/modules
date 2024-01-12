@@ -3,6 +3,7 @@
   "description":"https://raw.githubusercontent.com/e0ab09e002ab/modules/main/qx/sign_task.json",
   "task":[
     "17 7 * * * https://raw.githubusercontent.com/e0ab09e002ab/modules/main/qx/js/jhsh_checkIn.js, tag=建行生活, img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/jhsh.png",
-    "17 7 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, tag=阿里云盘, img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/AliYunDrive.png"
+    "17 7 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, tag=阿里云盘, img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/AliYunDrive.png",
+    "17 8 * * * https://raw.githubusercontent.com/TY1ung/QuantumultX/f4ced31e6c6457d25937487c8481c22dce186971/Scripts/UnionPay.js, tag=云闪付签到, img-url=https://raw.githubusercontent.com/lcmigg/Surge/master/img/unionpay.png, enabled=true"
   ]
 }
