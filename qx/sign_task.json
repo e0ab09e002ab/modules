@@ -7,6 +7,6 @@
     "0 8 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率监控, img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/exchangerate.png",
     "2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=bilibili签到, img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/bilibili.png",
     "8 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通 ,img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/10010.png",
-    "10 0 * * * https://gist.githubusercontent.com/Sliverkiss/845cf469e4762afdc83c3949be006609/raw/pgsh.js, tag=中国联通 ,img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/pgsh.png"
+    "10 0 * * * https://gist.githubusercontent.com/Sliverkiss/845cf469e4762afdc83c3949be006609/raw/pgsh.js, tag=胖乖生活 ,img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/pgsh.png"
    ]
 }
