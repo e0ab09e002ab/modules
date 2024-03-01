@@ -3,7 +3,7 @@
 # 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！
 #############################################
 
-hostname = *.xiuxiu.meitu.com,api.xiuxiu.meitu.com,user.linglan.com,notability.com,restore-access.indream.app,api.hummingbird.businessreview.global,share.dianshihome.com, api.gaoqingdianshi.com,*xmind.*,userapi.qiekj.com
+hostname = *.xiuxiu.meitu.com,api.xiuxiu.meitu.com,user.linglan.com,notability.com,restore-access.indream.app,api.hummingbird.businessreview.global,share.dianshihome.com, api.gaoqingdianshi.com,*xmind.*,userapi.qiekj.com,r.51wnl-cq.com
 
 # ✅美图秀秀vip
 ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js
@@ -31,3 +31,6 @@ https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-res
 
 # ✅胖乖生活
 ^https:\/\/userapi\.qiekj\.com\/wechat\/unionId\/login url script-request-body https://gist.githubusercontent.com/Sliverkiss/845cf469e4762afdc83c3949be006609/raw/pgsh.js
+
+# ✅万年历VIP
+^https:\//r.51wnl-cq.com\/Api\/User\/GetExtInfo url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/wnl.js
