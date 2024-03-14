@@ -3,7 +3,7 @@
 # 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！
 #############################################
 
-hostname = *.xiuxiu.meitu.com,api.xiuxiu.meitu.com,user.linglan.com,notability.com,restore-access.indream.app,api.hummingbird.businessreview.global,share.dianshihome.com, api.gaoqingdianshi.com,*xmind.*,userapi.qiekj.com,*.jiemengjia.com,*.feidee.*, *.ssjlicai.*
+hostname = *.xiuxiu.meitu.com,api.xiuxiu.meitu.com,user.linglan.com,notability.com,restore-access.indream.app,api.hummingbird.businessreview.global,share.dianshihome.com, api.gaoqingdianshi.com,*xmind.*,userapi.qiekj.com,*.jiemengjia.com,*.feidee.*, *.ssjlicai.*,gateway.caixin.com
 
 # ✅美图秀秀vip
 ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js
@@ -56,3 +56,6 @@ https://userapi.feidee.net/v1/profile/basic_info url script-response-body https:
 https://yun.feidee.net/cab-vip-ws/terminal/v1/vip-users/show-info url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/suishouji.js
 # > 随手记_账本顶部推广
 https://yun.feidee.net/cab-draw-activity-ws/terminal/v1/draw-record/user-draw-result url reject-dict
+
+# ✅财新会员 
+^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) url script-request-header https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/js/caixin.js
