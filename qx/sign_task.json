@@ -1,0 +1,13 @@
+{
+  "name":"Sign_in_Task",
+  "description":"https://raw.githubusercontent.com/e0ab09e002ab/modules/main/qx/sign_task.json",
+  "task":[
+    "17 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js, tag=建行生活, img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/jhsh.png",
+    "17 7 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, tag=阿里云盘, img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/AliYunDrive.png",
+    "0 8 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率监控, img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/exchangerate.png",
+    "2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=bilibili签到, img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/bilibili.png",
+    "8 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通 ,img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/10010.png",
+    "10 0 * * * https://gist.githubusercontent.com/Sliverkiss/845cf469e4762afdc83c3949be006609/raw/pgsh.js, tag=胖乖生活 ,img-url=https://raw.githubusercontent.com/e0ab09e002ab/modules/main/images/pgsh.png",
+    "0/5 * * * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/AutoJoinTF.js, tag=TF监控自动加入, img-url=https://raw.githubusercontent.com/githubdulong/Script/master/Images/testflight.png, enabled=true"
+   ]
+}
